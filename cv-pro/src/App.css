@@ -3,20 +3,29 @@
     margin: 0;
 }
 
-.App {
+.container {
     display: flex;
-    justify-content: center;
-}
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #eee;
 
-form {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    border: 1px solid grey;
-    height: 600px;
-    gap: 20px;
-    align-items: center;
-    
-}
+  }
+  
+  .divo {
+    flex: 1 0 calc(25% - 20px);
+    background-color: #fff;
+    border: 1px solid #ccc;
 
 
+ 
+  }
+
+
+
+  .divo:hover {
+    background-color: gray;
+  }
+  
+  
